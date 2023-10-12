@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root { 
+    
+    --fonte-padrao:Vararial, Helvetica, sans-serif;
+    --fonte-destaque:'Sriracha', cursiva;
+    --fonte-destaque2: 'Ysabeau Infant', sans-serif;
+    --fonte-destaque3:'Quicksand', sans-serif;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    background-color: aliceblue;
+}
+
+.img-fundo-logo{
+
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position:bottom;
+}
+
+.titulo{
+    
+    width: fit-content;
+    mix-blend-mode: luminosity;
+    font-family: var(--fonte-destaque);
+    position: relative;
+    top: -132px;
+    margin: auto;
+    background-color: #c0c0c0a1;
+    font-size: 44px;
+    
+}
+
+
+
+
+ .quartosdisponiveis{
+
+    display:flex;
+    font-size: 24px;
+    color: green;
+    font-family:var(--fonte-destaque2);
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+    background-color: #c0c0c085;
+    box-shadow: -1px 0px 5px 0px #00000078;
+}
+
+
+.quartoeconomi{
+
+    display: inline-flex;
+    padding-left: 46px;
+    padding-bottom: 109px;
+    object-fit: cover;
+    
+    
+}
+.img-economi{
+
+        box-shadow: -1px -3px 5px 0px #00000078;
+
+}
+
+main > .descriçao-eco1, .descriçao-eco2, .descriçao-eco3{
+
+    display: inline-grid;
+    font-size: 14px;
+    font-family: var(--fonte-destaque3);
+    color: #0a0909;
+    position: relative;
+    top: -100px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    
+   
+    
+}
+
+main > .descriçao-eco1{
+
+    
+    padding-left: 45px;
+
+}
+
+main > .descriçao-eco2{
+    padding-left: 142px;
+
+}
+
+main > .descriçao-eco3{
+
+   padding-left: 93px;
+  
+}
+
+main > .descriçao-eco1 > #check:before{
+    
+    content: "✔️";
+    display: inline;
+   
+}
+
+main > .descriçao-eco2 > #check:before{
+    
+    content: "✔️";
+    display: inline;
+   
+}
+
+main > .descriçao-eco3 > #check:before{
+    
+    content: "✔️";
+    display: inline;
+   
+}
+.quartosdisponiveisexecutivo{
+
+    display:flex;
+    font-size: 24px;
+    color: green;
+    font-family:var(--fonte-destaque2);
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+    background-color: #c0c0c085;
+    box-shadow: -1px 0px 5px 0px #00000078;
+}
+
+.containerexecutivo-img{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.containerexecutivo-img > figure {
+
+   box-shadow:-1px -3px 5px 0px #00000078;
+
+}
+
+.img-executivos{
+
+    
+    width: 276px;
+    height: 219px;
+    object-fit: cover;
+
+}
+
+.containerexecutivo-descriçao {
+
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-bottom: 45px;
+   
+}
+
+.descriçao-executivo1 > h1{
+
+    font: 30px;
+}
+
+
+.descriçao-executivo1 {
+    
+    padding-left: 18px;
+}
+#p1::before{
+    
+    content: "✔️";
+    display: inline;
+}
+
+.descriçao-executivo2{
+
+    padding-left: 24px;
+
+}
+#p2::before{
+    
+    content: "✔️";
+    display: inline;
+}
+
+
+.descriçao-executivo3{
+
+    padding-right: 25px;
+}
+
+ h1{
+
+    padding-bottom: 5px;
+}
+#p3::before{
+    
+    content: "✔️";
+    display: inline;
+}
+
+article > h1{
+
+    display: flex;
+    justify-content: space-around;
+}
+.container-serviços-adicionais > h1{
+
+    display:flex;
+    font-size: 24px;
+    color: green;
+    margin-top: 50px;
+    font-family:var(--fonte-destaque2);
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+    background-color: #c0c0c085;
+    box-shadow: -1px 0px 5px 0px #00000078;
+
+}
+.img-serviços-adicionais{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+.img-serviços-adicionais > img {
+
+    width: 200px;
+    height: 200px;
+    object-position: bottom;
+    border-radius: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
